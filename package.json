@@ -1,0 +1,8 @@
+{
+  "name": "zeroable",
+  "version": "0.0.1",
+  "description": "NaN = 0, customizable and flex, any falsy value to zero.",
+  "main": "index.js",
+  "author": "fncolon",
+  "license": "MIT"
+}
