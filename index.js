@@ -3,3 +3,5 @@ function zeroable(number = 0, fallback = 0) {
 }
 
 exports = module.exports = zeroable;
+
+zeroable = num => +num || 0;
