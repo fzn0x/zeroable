@@ -1,5 +1,1 @@
-function zeroable(number = 0, fallback = 0) {
-  return +number || +fallback;
-}
-
-exports = module.exports = zeroable;
+exports = module.exports = zeroable = (num = 0, fallback = 0) => +num || +fallback;
