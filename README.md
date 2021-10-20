@@ -14,6 +14,7 @@ ES6
 import zeroable from "zeroable";
 
 console.log(zeroable("SSSS")); // returns 0
+console.log(zeroable("SSSS", 1)); // returns 1
 console.log(zeroable("11.1")); // returns 11.1
 console.log(zeroable()); // returns 0
 ```
@@ -24,6 +25,7 @@ CJS
 const zeroable = require("zeroable");
 
 console.log(zeroable("SSSS")); // returns 0
+console.log(zeroable("SSSS", 1)); // returns 1
 console.log(zeroable("11.1")); // returns 11.1
 console.log(zeroable()); // returns 0
 ```
