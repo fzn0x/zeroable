@@ -1,5 +1,7 @@
 ## NaN = 0, it should be.
 
+> Deprecated
+
 **Faster** than **Number**,**parseInt**, and **parseFloat**.
 
 > Wrapped to make it look clean.
